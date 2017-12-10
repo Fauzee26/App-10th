@@ -185,9 +185,8 @@
                                 <rect key="frame" x="16" y="147" width="343" height="208"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" fixedFrame="YES" barStyle="blackTranslucent" translucent="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HDW-mk-F1g">
+                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" barStyle="blackTranslucent" translucent="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HDW-mk-F1g">
                                 <rect key="frame" x="0.0" y="623" width="375" height="44"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
                                 <items>
                                     <barButtonItem title="Main Menu" id="mPM-9F-9Bd">
                                         <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
@@ -209,6 +208,9 @@
                         </subviews>
                         <color key="backgroundColor" red="0.80000001190000003" green="0.80000001190000003" blue="0.80000001190000003" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
+                            <constraint firstItem="HDW-mk-F1g" firstAttribute="leading" secondItem="Sh1-Tz-3uu" secondAttribute="leading" id="7zZ-lh-h2B"/>
+                            <constraint firstItem="HDW-mk-F1g" firstAttribute="bottom" secondItem="Sh1-Tz-3uu" secondAttribute="bottom" id="8tY-cN-eIX"/>
+                            <constraint firstItem="HDW-mk-F1g" firstAttribute="trailing" secondItem="Sh1-Tz-3uu" secondAttribute="trailing" id="E89-Ui-Udx"/>
                             <constraint firstItem="1wR-Bl-Y9U" firstAttribute="top" secondItem="Sh1-Tz-3uu" secondAttribute="top" constant="16" id="S1o-be-vh0"/>
                             <constraint firstItem="1wR-Bl-Y9U" firstAttribute="leading" secondItem="Sh1-Tz-3uu" secondAttribute="leading" constant="16" id="jJ3-cO-Kc3"/>
                             <constraint firstItem="Sh1-Tz-3uu" firstAttribute="trailing" secondItem="1wR-Bl-Y9U" secondAttribute="trailing" constant="16" id="oso-zP-hU9"/>
